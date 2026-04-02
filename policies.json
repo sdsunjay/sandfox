@@ -1,0 +1,39 @@
+{
+  "policies": {
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/addon-latest.xpi"
+      }
+    },
+    "3rdparty": {
+      "Extensions": {
+        "uBlock0@raymondhill.net": {
+          "adminSettings": {
+            "userFilters": "",
+            "selectedFilterLists": [
+              "user-filters",
+              "ublock-filters",
+              "ublock-badware",
+              "ublock-privacy",
+              "ublock-quick-fixes",
+              "ublock-unbreak",
+              "easylist",
+              "easyprivacy",
+              "urlhaus-1",
+              "plowe-0",
+              "adaway-1",
+              "antipopads"
+            ],
+            "externalLists": "https://adaway.org/hosts.txt\nhttps://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/hosts.txt\nhttps://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
+            "importedLists": [
+              "https://adaway.org/hosts.txt",
+              "https://raw.githubusercontent.com/AdroitAdorKhan/antipopads-re/master/formats/hosts.txt",
+              "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
